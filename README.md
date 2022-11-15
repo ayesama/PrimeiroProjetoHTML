@@ -1,2 +1,3 @@
-# PrimeiroProjetoHTML
-Primeiro projeto de HTML do curso da DIO
+# Primeiro Projeto de HTML
+
+Criando uma página web para tratar dos assuntos abordados nas aulas do curso de HTML da DIO

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto HTML</title>
+    </head>
+    <body>
+        <h1>Sobre o Curso de Introdução ao HTML</h1>
+        <hr />
+        <h2 id="indice">Índice</h2>
+        <ul>
+            <li><a href="#html"><h4>O que é HTML?</h4></a></li>
+            <li><a href="#basico"><h4>Estrutura básica</h4></a></li>
+            <li><a href="#tags"><h4>Tags</h4></a></li>
+            <ol>
+                <li><a href="#textos"><h5>Textos</a></h5></li>
+                <li><a href="#listas"><h5>Listas Ordenadas e Não Ordenadas</h5></a></li>
+                <li><a href="#links"><h5>Links</h5></a></li>
+            </ol>
+            <li><a href="#referencias"><h4>Referências</h4></a></li>
+        </ul>
+        <h2 id="html">O que é HTML? <small><a href="#indice" title="Voltar ao índice" style="text-decoration:none"><font size="5" color="blue">↑</font><font size="1" color="blue">Voltar</font></a></small></h2>
+        <p>HTML significa <mark><i><abbr title="Linguagem de Marcação de HiperTexto">HyperText Markup Language</abbr></i></mark> e foi criado pelo britânico Tim Berners-Lee. O HTML é o componente básico de uma página da web, ele permite inserir o conteúdo e estruturar a página de um website Sem o HTML para organizar e dar significado às informações de uma página, o navegador não saberia exibir textos, carregar imagens, vídeos e outros conteúdos.</p>
+        <p>Os hipertextos são conjuntos de elementos conectados. Podendo ser palavras, vídeos, imagens, documentos, áudio e etc. Quando conectamos todo esse conteúdo, formamos uma rede de informações que permite organizar conhecimentos e guardar informações.</p>
+        <p>Quando visitamos um website, percebemos diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e outros elementos. A estruturação é feita através do HTML. No início da web era comum encontrar sites apenas com textos e imagens simples, com estruturação básica e sem estilizações complexas, mas hoje em dia quase não encontramos sites que possuam apenas elementos HTML e, por tanto, podemos considerar que o HTML é apenas o esqueleto da página. Além do esqueleto é necessário ter o corpo e para isso temos o CSS e o JavaScript que, em conjunto com o HTML, dão a vida aos sites como conhecemos hoje.</p>
+        <p>Portanto podemos concluir que o HTML é um arquivo de extensão <strong>.html</strong> ou <strong>.htm</strong> com a estrutura do site que o navegador irá interpretar para renderizar o conteúdo e o usuário final consiga visualizá-lo.</p>
+        <h2 id="basico">Estrutura básica <small><a href="#indice" title="Voltar ao índice" style="text-decoration:none"><font size="5" color="blue">↑</font><font size="1" color="blue">Voltar</font></a></small></h2>
+        <p>O documento HTML é composto por tags. Começando com a tag &lt;html&gt; e terminando com &lt;/html&gt;. Dentro da &lt;html&gt; temos a tag &lt;head&gt;&lt;/head&gt; que é onde fica o cabeçalho e o título que aparece na janela do navegador e a tag &lt;body&gt;&lt;/body&gt; que é onde colocamos o conteúdo que será vísivel no corpo da nossa página como pode ser visto no exemplo abaixo:</p>
+        <img alt="Exemplo de código HTML" src="https://ead.stf.jus.br/cursos/DesenvInterativo/include/images/aula4/exemplo01.png" />
+        <blockquote cite="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html"><p>O documento HTML sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável. Sempre será dessa forma e você sempre, sempre começará seu HTML começando por esse código. Geralmente os editores como o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não precisa se preocupar em decorá-la, mas é bom que faça.</p></blockquote>
+        <h2 id="tags">Tags <small><a href="#indice" title="Voltar ao índice" style="text-decoration:none"><font size="5" color="blue">↑</font><font size="1" color="blue">Voltar</font></a></small></h2>
+        <p>As tags são usadas para informar ao navegador a estrutura do site, ou seja, quando o navegador interpreta o código HTML ele produz a estrutura e o conteúdo visual da página. Elas sempre estão dentro dos sinais de chevron <b>&lt; &gt;</b> (maior que e menor que).</p>
+        <p>Algumas tags precisam de fechamento e outras não. As que precisam de fechamento são escritas como &lt;tag&gt;&lt;/tag&gt; e as que não precisam de fechamento são escritas como &lt;tag /&gt;.</p>
+        <p>Além disso as tag podem receber atributos que possuirão valores que modificam sua estrutura ou funcionalidade</p>
+        <p>Existem tags para todo tipo de objeto, extruturação da página e conteúdo. Logo abaixo veremos alguns exemplos de tags de Textos, de Listas e de Links.</p>
+        <h3 id="textos">Textos <small><a href="#indice" title="Voltar ao índice" style="text-decoration:none"><font size="5" color="blue">↑</font><font size="1" color="blue">Voltar</font></a></small></h3>
+        <p>Vamos iniciar com a tag de Parágrafo &lt;p&gt;. Essa linha que você está lendo está dentro dessa tag, criando um parágrafo separado e iniciando uma nova linha</p>
+        <p>Temos também as tags de título e subtitulo que possuem 6 variações, são elas: &lt;h1&gt;&lt;h2&gt; &lt;h3&gt;&lt;h4&gt;&lt;h5&gt;&lt;h6&gt;</p>
+        <h1>Exemplo de texto h1</h1>
+        <h2>Exemplo de texto h2</h2>
+        <h3>Exemplo de texto h3</h3>
+        <h4>Exemplo de texto h4</h4>
+        <h5>Exemplo de texto h5</h5>
+        <h6>Exemplo de texto h6</h6>
+        <p>Como podemos ver, cada texto foi tomando um tamanho diferente, porém manteve um espaçamento entre eles.</p>
+        <p>Além dessas tags, temos as tags de formatação de texto, temos a tag &lt;sub&gt; <sub>que deixa o texto abaixo da linha padrão</sub>, temos a &lt;sup&gt; <sup>que deixa acima</sup>, temos a tag &lt;strong&gt; <strong>que deixa o texto negrito</strong>, temos a tag &lt;i&gt; <i>que deixa o texto em itálico</i>, a tag &lt;u&gt; <u>faz com que o texto fique sublinhado</u>, a tag &lt;del&gt; <del> que faz com que o texto fique tracejado</del> e, por fim, temos a tag &lt;mark&gt; <mark>que destaca nosso texto como se usasse um marca-textos</mark>.</p>
+        <blockquote>Também temos a tag &lt;blockquote&gt; que cria uma citação com um espaçamento no começo da linha.</blockquote>
+        <h3 id="listas">Listas Ordenadas e Não Ordenadas <small><a href="#indice" title="Voltar ao índice" style="text-decoration:none"><font size="5" color="blue">↑</font><font size="1" color="blue">Voltar</font></a></small></h3>
+        <p>Para criar listas temos as tags de listas ordenadas &lt;ol&gt; e não ordenadas &lt;ul&gt; e dentro delas colocamos os itens da lista usando a tag &lt;li&gt;</p>
+        <p>Exemplo de lista ordenada</p>
+        <img alt="Exemplo de lista ordenada" src="https://i0.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/01/ordered-list.jpg" width="300" />
+        <p>Exemplo de lista não ordenada</p>
+        <img alt="Exemplo de lista não ordenada" src="https://i0.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/01/Unordered-List.jpg" width="300" />
+        <p><small>Fonte das imagens: <a title="TutorialBrain" href="https://www.tutorialbrain.com/html_tutorial/html_lists/">TutorialBrain</a></small></p>
+        <p>Você também pode colocar uma lista dentro de outra lista. No nosso índice temos um exemplo de uma lista ordenada dentro de uma lista não ordenada, dê uma olhada e tente identificá-las!</p>
+        <h3 id="links">Links <small><a href="#indice" title="Voltar ao índice" style="text-decoration:none"><font size="5" color="blue">↑</font><font size="1" color="blue">Voltar</font></a></small></h3>
+        <p>Por fim, temos a tag de hyperlink, que faz com que você consiga navegar de um ponto a outro ou de uma página para outra. Nesse caso utilizamos a tag &lt;a&gt; e dentro dela passamos o atributo href para direcionar o usuário ao clicar. Como exemplo, se tivermos <p><mark>&lt;a href="https://google.com/"&gt;Google&lt;/a&gt;</mark></p> teremos como resultado: <a href="https://google.com">Google</a>.</p>
+        <p>Você também pode usar no atributo href um id de um elemento da página, como fizemos com o botão "Voltar" acima, direcionando para o índice da página e não para um site externo.</p>
+        <p>Dentro dessa tag temos alguns atributos interessantes, como por exemplo o target que você pode fazer o link abrir em uma nova guia e o title que exibe um texto quando você para o mouse sobre ele (chamado de tooltip). Vamos ver como ficaria nosso exemplo anterior adicionando esses dois elementos. <p><mark>&lt;a href="https://google.com/" title="Clique para ir ao Google" target="_blank"&gt;Google&lt;/a&gt;</mark></p> teremos como resultado: <a href="https://google.com" title="Clique para ir ao Google" target="_blank">Google</a></p>
+        <h2 id="referencias">Referências <small><a href="#indice" title="Voltar ao índice" style="text-decoration:none"><font size="5" color="blue">↑</font><font size="1" color="blue">Voltar</font></a></small></h2>
+        <p>Alguns vídeos de referência para aprender mais sobre HTML</p>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=31DFy0dCVZM" target="_blank">Aula sobre Estrutura básica do HTML</a></li>
+            <li><a href="https://www.youtube.com/watch?v=wjtvaUMJkqs" target="_blank">Aula sobre Tags</a></li>
+            <li><a href="https://www.youtube.com/watch?v=ce12fj7z1pI" target="_blank">Aula sobre Atributos das Tags</a></li>
+            <li><a href="https://www.youtube.com/watch?v=AAL6IJ_VdmI" target="_blank">Aula sobre Textos</a></li>
+            <li><a href="https://www.youtube.com/watch?v=9lEi6Agc_no" target="_blank">Aula sobre Listas</a></li>
+            <li><a href="https://www.youtube.com/watch?v=nQJCSI9gTPI" target="_blank">Aula sobre Links</a></li>
+            <li><a href="https://www.youtube.com/watch?v=SV7TL0hxmIQ" target="_blank">Aprenda HTML em 1 hora</a></li>
+        </ul>
+    </body>
+</html>
